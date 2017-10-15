@@ -9,7 +9,7 @@ You decided to add different condiments in your coffees, such as steamed milk, w
 Therefore, we are going to use the **decorator pattern**. Fill up the remaining code or create more classes if needed so you get the following results when you execute the `main` method. 
 ```Java
 Espresso $1.99
-Espresso, Soy, Mocha, Steamed Milk, Whipped Milk $2.4400000000000004
+Espresso, Soy, Mocha, Steamed Milk, Whipped Milk $2.5400000000000004
 Decaf $1.05
 Decaf, Steamed Milk, Whipped Milk, Whipped Milk, Soy $1.5000000000000002
 ```
