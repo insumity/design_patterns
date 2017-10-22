@@ -1,9 +1,9 @@
 # The Adapter Pattern
 ---
 
-You have been using `FacebookPoster` in your application to post and get messages from facebook. Specifically, your code is full with calls to the `postMessage` and `getMessage` methods from the `FacebookPoster` class. Unfortunately, Facebook decided to change its provided API and now you have to use `NewFacebookPoster`. Instead of refactoring everything, you decide to use the **adapter pattern**.
+You have been using `FacebookPoster` in your application to post and get messages from Facebook. Specifically, your code is full with calls to the `postMessage` and `getMessage` methods from the `FacebookPoster` class. Unfortunately, Facebook decided to change its provided API and now you have to use `NewFacebookPoster`. Instead of refactoring everything, you decide to use the **adapter pattern**.
 
-Fill up the missing code in the `NewFacebokPosterAdapter` class, so that you use the newest Facebook API, but without destroying the previously used `FacebobkPoster` interface. Additionally, fill up the remaining code in the `Main` class, so you get the following results:
+Create a new class with the name `NewFacebokPosterToFacebookPosterAdapter` and instantiate it in the `Main` class, so you get the following results:
 
 ```
 Using the NewFacebookPoster.post
